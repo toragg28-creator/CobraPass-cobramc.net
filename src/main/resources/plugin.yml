@@ -1,0 +1,18 @@
+name: CobraPass
+main: net.cobramc.passplugin.CobraPass
+version: 1.0.0
+api-version: '1.21'
+author: CobraMC
+description: Pase de batalla propio para CobraMC
+softdepend: [PlaceholderAPI, CrazyCrates, Essentials]
+commands:
+  pase:
+    description: Abre CobraPass
+    aliases: [bp, cobrapass, cpass]
+    usage: /pase
+  cpassadmin:
+    description: Administracion del pase
+    permission: cobrapass.admin
+permissions:
+  cobrapass.admin:
+    default: op

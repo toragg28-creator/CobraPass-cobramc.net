@@ -1,0 +1,320 @@
+# COBRAMC - PREMIOS POR TEMPORADA
+# money en unidades del juego
+# premium es ADICIONAL a gratis
+levels:
+  1:
+    free:
+      - 'money:500000000'
+    premium:
+      - 'money:1000000000'
+      - 'key:Raro:2'
+  2:
+    free:
+      - 'item:EMERALD_BLOCK:24'
+    premium:
+      - 'item:EMERALD_BLOCK:48'
+  3:
+    free:
+      - 'money:500000000'
+    premium:
+      - 'money:1000000000'
+  4:
+    free:
+      - 'item:ENCHANTED_GOLDEN_APPLE:20'
+    premium:
+      - 'item:ENCHANTED_GOLDEN_APPLE:40'
+  5:
+    free:
+      - 'money:1000000000'
+      - 'key:Comun:4'
+    premium:
+      - 'money:2000000000'
+      - 'key:Legendario:2'
+  6:
+    free:
+      - 'item:DIAMOND_BLOCK:32'
+    premium:
+      - 'item:DIAMOND_BLOCK:48'
+  7:
+    free:
+      - 'money:1000000000'
+    premium:
+      - 'money:2000000000'
+  8:
+    free:
+      - 'item:TOTEM_OF_UNDYING:4'
+    premium:
+      - 'item:TOTEM_OF_UNDYING:8'
+  9:
+    free:
+      - 'item:EXPERIENCE_BOTTLE:64'
+    premium:
+      - 'item:EXPERIENCE_BOTTLE:128'
+      - 'item:TOTEM_OF_UNDYING:2'
+  10:
+    free:
+      - 'money:1500000000'
+      - 'key:Raro:2'
+      - 'coins:6'
+    premium:
+      - 'money:3000000000'
+      - 'key:Legendario:4'
+      - 'coins:10'
+  11:
+    free:
+      - 'item:NETHERITE_SCRAP:16'
+    premium:
+      - 'item:NETHERITE_INGOT:6'
+  12:
+    free:
+      - 'money:1500000000'
+    premium:
+      - 'money:3000000000'
+  13:
+    free:
+      - 'item:EMERALD_BLOCK:32'
+    premium:
+      - 'item:EMERALD_BLOCK:64'
+  14:
+    free:
+      - 'item:ENCHANTED_GOLDEN_APPLE:20'
+    premium:
+      - 'item:ENCHANTED_GOLDEN_APPLE:40'
+  15:
+    free:
+      - 'money:2000000000'
+      - 'key:Legendario:2'
+    premium:
+      - 'money:4000000000'
+      - 'key:Legendario:4'
+  16:
+    free:
+      - 'item:SHULKER_BOX:2'
+    premium:
+      - 'item:SHULKER_BOX:4'
+  17:
+    free:
+      - 'money:2000000000'
+    premium:
+      - 'money:4000000000'
+  18:
+    free:
+      - 'item:NETHERITE_INGOT:8'
+    premium:
+      - 'item:NETHERITE_INGOT:16'
+  19:
+    free:
+      - 'item:TOTEM_OF_UNDYING:4'
+    premium:
+      - 'item:TOTEM_OF_UNDYING:10'
+  20:
+    free:
+      - 'money:2500000000'
+      - 'key:Legendario:2'
+      - 'coins:10'
+    premium:
+      - 'money:5000000000'
+      - 'key:Legendario:6'
+      - 'coins:20'
+  21:
+    free:
+      - 'item:BEACON:2'
+    premium:
+      - 'item:BEACON:4'
+  22:
+    free:
+      - 'money:2500000000'
+    premium:
+      - 'money:5000000000'
+  23:
+    free:
+      - 'item:ANCIENT_DEBRIS:24'
+    premium:
+      - 'item:ANCIENT_DEBRIS:40'
+  24:
+    free:
+      - 'item:ENCHANTED_GOLDEN_APPLE:20'
+    premium:
+      - 'item:ENCHANTED_GOLDEN_APPLE:40'
+  25:
+    free:
+      - 'money:3000000000'
+      - 'key:Dinero:2'
+    premium:
+      - 'money:6000000000'
+      - 'key:Legendario:4'
+      - 'key:Spawners:2'
+  26:
+    free:
+      - 'item:DIAMOND_BLOCK:48'
+    premium:
+      - 'item:DIAMOND_BLOCK:96'
+  27:
+    free:
+      - 'money:3500000000'
+    premium:
+      - 'money:7000000000'
+  28:
+    free:
+      - 'item:SHULKER_BOX:4'
+    premium:
+      - 'item:SHULKER_BOX:8'
+  29:
+    free:
+      - 'item:ELYTRA:2'
+    premium:
+      - 'item:ELYTRA:2'
+      - 'item:FIREWORK_ROCKET:128'
+  30:
+    free:
+      - 'money:4000000000'
+      - 'key:Legendario:4'
+      - 'coins:14'
+    premium:
+      - 'money:8000000000'
+      - 'key:Legendario:6'
+      - 'coins:24'
+  31:
+    free:
+      - 'item:NETHERITE_INGOT:8'
+    premium:
+      - 'item:NETHERITE_INGOT:16'
+  32:
+    free:
+      - 'money:4500000000'
+    premium:
+      - 'money:9000000000'
+  33:
+    free:
+      - 'item:TOTEM_OF_UNDYING:6'
+    premium:
+      - 'item:TOTEM_OF_UNDYING:12'
+  34:
+    free:
+      - 'item:ENCHANTED_GOLDEN_APPLE:20'
+    premium:
+      - 'item:ENCHANTED_GOLDEN_APPLE:40'
+  35:
+    free:
+      - 'money:5000000000'
+      - 'key:Spawners:2'
+    premium:
+      - 'money:10000000000'
+      - 'key:Legendario:8'
+      - 'key:Spawners:2'
+  36:
+    free:
+      - 'item:BEACON:2'
+    premium:
+      - 'item:BEACON:4'
+  37:
+    free:
+      - 'money:5500000000'
+    premium:
+      - 'money:11000000000'
+  38:
+    free:
+      - 'item:NETHERITE_INGOT:16'
+    premium:
+      - 'item:NETHERITE_INGOT:24'
+  39:
+    free:
+      - 'item:SHULKER_BOX:4'
+    premium:
+      - 'item:SHULKER_BOX:8'
+  40:
+    free:
+      - 'money:6000000000'
+      - 'key:Legendario:6'
+      - 'coins:20'
+    premium:
+      - 'money:12000000000'
+      - 'key:Divino:2'
+      - 'key:Legendario:10'
+      - 'coins:36'
+  41:
+    free:
+      - 'item:BEACON:4'
+    premium:
+      - 'item:BEACON:6'
+  42:
+    free:
+      - 'money:6500000000'
+    premium:
+      - 'money:13000000000'
+  43:
+    free:
+      - 'item:ENCHANTED_GOLDEN_APPLE:20'
+    premium:
+      - 'item:ENCHANTED_GOLDEN_APPLE:40'
+  44:
+    free:
+      - 'item:TOTEM_OF_UNDYING:12'
+    premium:
+      - 'item:TOTEM_OF_UNDYING:20'
+  45:
+    free:
+      - 'money:7000000000'
+      - 'key:Legendario:8'
+    premium:
+      - 'money:14000000000'
+      - 'key:Legendario:10'
+  46:
+    free:
+      - 'item:NETHERITE_INGOT:24'
+    premium:
+      - 'item:NETHERITE_INGOT:36'
+  47:
+    free:
+      - 'money:7500000000'
+    premium:
+      - 'money:15000000000'
+  48:
+    free:
+      - 'item:ELYTRA:2'
+      - 'item:FIREWORK_ROCKET:64'
+    premium:
+      - 'item:ELYTRA:2'
+      - 'item:FIREWORK_ROCKET:256'
+  49:
+    free:
+      - 'item:SHULKER_BOX:4'
+    premium:
+      - 'item:SHULKER_BOX:8'
+  50:
+    free:
+      - 'money:8000000000'
+      - 'key:Legendario:10'
+      - 'coins:30'
+    premium:
+      - 'money:16000000000'
+      - 'key:Divino:2'
+      - 'key:Legendario:12'
+      - 'coins:50'
+  51:
+    free:
+      - 'item:BEACON:4'
+    premium:
+      - 'item:BEACON:8'
+  52:
+    free:
+      - 'money:8500000000'
+    premium:
+      - 'money:17000000000'
+  53:
+    free:
+      - 'item:NETHERITE_BLOCK:2'
+    premium:
+      - 'item:NETHERITE_BLOCK:6'
+  54:
+    free:
+      - 'money:16000000000'
+      - 'key:Legendario:12'
+      - 'coins:40'
+      - 'item:TOTEM_OF_UNDYING:4'
+    premium:
+      - 'money:32000000000'
+      - 'key:Divino:2'
+      - 'key:Legendario:16'
+      - 'coins:70'
+      - 'item:DRAGON_EGG:2'

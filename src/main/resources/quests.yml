@@ -1,0 +1,337 @@
+# Misiones - asignacion diaria y 4 semanas
+daily:
+  - id: d1
+    name: 'Cazador de zombis'
+    type: kill_zombie
+    goal: 80
+    xp: 40
+    icon: ZOMBIE_HEAD
+  - id: d2
+    name: 'Cazador de esqueletos'
+    type: kill_skeleton
+    goal: 50
+    xp: 40
+    icon: BONE
+  - id: d3
+    name: 'Exterminador'
+    type: kill_spider
+    goal: 35
+    xp: 40
+    icon: SPIDER_EYE
+  - id: d4
+    name: 'Minero principiante'
+    type: break_stone
+    goal: 500
+    xp: 40
+    icon: STONE
+  - id: d5
+    name: 'Buscador de hierro'
+    type: break_iron
+    goal: 64
+    xp: 40
+    icon: IRON_ORE
+  - id: d6
+    name: 'Lenador'
+    type: break_log
+    goal: 160
+    xp: 40
+    icon: OAK_LOG
+  - id: d7
+    name: 'Agricultor'
+    type: harvest
+    goal: 180
+    xp: 40
+    icon: WHEAT
+  - id: d8
+    name: 'Pescador'
+    type: fish
+    goal: 10
+    xp: 40
+    icon: COD
+  - id: d9
+    name: 'Cuidador'
+    type: breed
+    goal: 10
+    xp: 40
+    icon: WHEAT
+  - id: d10
+    name: 'Artesano'
+    type: craft
+    goal: 64
+    xp: 40
+    icon: CRAFTING_TABLE
+  - id: d11
+    name: 'Explorador'
+    type: walk
+    goal: 2000
+    xp: 40
+    icon: COMPASS
+  - id: d12
+    name: 'Encantador'
+    type: enchant
+    goal: 3
+    xp: 40
+    icon: ENCHANTING_TABLE
+  - id: d13
+    name: 'Comerciante'
+    type: trade
+    goal: 8
+    xp: 40
+    icon: EMERALD
+  - id: d14
+    name: 'Experto en XP'
+    type: gain_xp
+    goal: 250
+    xp: 40
+    icon: EXPERIENCE_BOTTLE
+  - id: d15
+    name: 'Cazador del Nether'
+    type: kill_blaze
+    goal: 25
+    xp: 40
+    icon: BLAZE_ROD
+weekly:
+  week1:
+    - id: w1_1
+      name: 'Minero novato'
+      type: break_stone
+      goal: 2500
+      xp: 150
+      icon: STONE
+    - id: w1_2
+      name: 'Productivo'
+      type: interact
+      goal: 5000
+      xp: 150
+      icon: LEVER
+    - id: w1_3
+      name: 'Francotirador'
+      type: shoot
+      goal: 600
+      xp: 150
+      icon: BOW
+    - id: w1_4
+      name: 'Maraton'
+      type: walk
+      goal: 40000
+      xp: 150
+      icon: LEATHER_BOOTS
+    - id: w1_5
+      name: 'Lobo Alpha'
+      type: tame_wolf
+      goal: 40
+      xp: 150
+      icon: BONE
+    - id: w1_6
+      name: 'Regeneracion rapida'
+      type: heal
+      goal: 200
+      xp: 150
+      icon: GOLDEN_APPLE
+    - id: w1_7
+      name: 'Asesino en serie'
+      type: kill_pvp
+      goal: 10
+      xp: 150
+      icon: DIAMOND_SWORD
+    - id: w1_8
+      name: 'COBRAMCTHEBEST'
+      type: chat_phrase
+      goal: 2
+      xp: 150
+      icon: PAPER
+    - id: w1_9
+      name: 'Jugador veterano'
+      type: reach_level
+      goal: 1
+      xp: 150
+      icon: EXPERIENCE_BOTTLE
+    - id: w1_10
+      name: 'Jugador activo'
+      type: join
+      goal: 30
+      xp: 150
+      icon: CLOCK
+  week2:
+    - id: w2_1
+      name: 'Minero experto'
+      type: break_deepslate
+      goal: 5000
+      xp: 150
+      icon: DEEPSLATE
+    - id: w2_2
+      name: 'Exterminador de monstruos'
+      type: kill_hostile
+      goal: 500
+      xp: 150
+      icon: ZOMBIE_HEAD
+    - id: w2_3
+      name: 'Pescador profesional'
+      type: fish
+      goal: 120
+      xp: 150
+      icon: COD
+    - id: w2_4
+      name: 'Maestro granjero'
+      type: harvest
+      goal: 2500
+      xp: 150
+      icon: WHEAT
+    - id: w2_5
+      name: 'Lenador experto'
+      type: break_log
+      goal: 3000
+      xp: 150
+      icon: OAK_LOG
+    - id: w2_6
+      name: 'Gran artesano'
+      type: craft
+      goal: 1000
+      xp: 150
+      icon: CRAFTING_TABLE
+    - id: w2_7
+      name: 'Aventurero'
+      type: walk
+      goal: 60000
+      xp: 150
+      icon: COMPASS
+    - id: w2_8
+      name: 'Criador'
+      type: breed
+      goal: 100
+      xp: 150
+      icon: WHEAT
+    - id: w2_9
+      name: 'Comerciante experto'
+      type: trade
+      goal: 100
+      xp: 150
+      icon: EMERALD
+    - id: w2_10
+      name: 'Jugador dedicado'
+      type: play_min
+      goal: 600
+      xp: 150
+      icon: CLOCK
+  week3:
+    - id: w3_1
+      name: 'Minero imparable'
+      type: break_stone
+      goal: 8000
+      xp: 150
+      icon: STONE
+    - id: w3_2
+      name: 'Cazador del Nether'
+      type: kill_blaze
+      goal: 300
+      xp: 150
+      icon: BLAZE_ROD
+    - id: w3_3
+      name: 'Enfrentamiento'
+      type: kill_pvp
+      goal: 15
+      xp: 150
+      icon: DIAMOND_SWORD
+    - id: w3_4
+      name: 'Recolector'
+      type: break_diamond
+      goal: 150
+      xp: 150
+      icon: DIAMOND_ORE
+    - id: w3_5
+      name: 'Explorador extremo'
+      type: walk
+      goal: 80000
+      xp: 150
+      icon: COMPASS
+    - id: w3_6
+      name: 'Maestro encantador'
+      type: enchant
+      goal: 40
+      xp: 150
+      icon: ENCHANTING_TABLE
+    - id: w3_7
+      name: 'Guerrero'
+      type: damage_hostile
+      goal: 15000
+      xp: 150
+      icon: NETHERITE_SWORD
+    - id: w3_8
+      name: 'Gran pescador'
+      type: fish
+      goal: 150
+      xp: 150
+      icon: COD
+    - id: w3_9
+      name: 'Maestro de la cria'
+      type: breed
+      goal: 150
+      xp: 150
+      icon: WHEAT
+    - id: w3_10
+      name: 'Veterano'
+      type: play_min
+      goal: 900
+      xp: 150
+      icon: CLOCK
+  week4:
+    - id: w4_1
+      name: 'Leyenda minera'
+      type: break_any
+      goal: 15000
+      xp: 150
+      icon: NETHERITE_PICKAXE
+    - id: w4_2
+      name: 'Cazador legendario'
+      type: kill_hostile
+      goal: 1000
+      xp: 150
+      icon: NETHERITE_SWORD
+    - id: w4_3
+      name: 'Rey del PvP'
+      type: kill_pvp
+      goal: 20
+      xp: 150
+      icon: DIAMOND_SWORD
+    - id: w4_4
+      name: 'Agricultor supremo'
+      type: harvest
+      goal: 5000
+      xp: 150
+      icon: WHEAT
+    - id: w4_5
+      name: 'Explorador legendario'
+      type: walk
+      goal: 100000
+      xp: 150
+      icon: COMPASS
+    - id: w4_6
+      name: 'Maestro lenador'
+      type: break_log
+      goal: 5000
+      xp: 150
+      icon: OAK_LOG
+    - id: w4_7
+      name: 'Pescador supremo'
+      type: fish
+      goal: 200
+      xp: 150
+      icon: COD
+    - id: w4_8
+      name: 'Gran constructor'
+      type: place
+      goal: 3000
+      xp: 150
+      icon: BRICKS
+    - id: w4_9
+      name: 'Maestro de la experiencia'
+      type: gain_xp
+      goal: 15000
+      xp: 150
+      icon: EXPERIENCE_BOTTLE
+    - id: w4_10
+      name: 'El mas activo'
+      type: play_min
+      goal: 1200
+      xp: 150
+      icon: CLOCK

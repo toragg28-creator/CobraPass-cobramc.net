@@ -1,0 +1,16 @@
+items:
+  rara:
+    name: '&dLlave Rara'
+    icon: TRIPWIRE_HOOK
+    price: 40
+    actions: ['key:Raro:1']
+  legendaria:
+    name: '&6Llave Legendaria'
+    icon: TRIPWIRE_HOOK
+    price: 100
+    actions: ['key:Legendario:1']
+  spawner:
+    name: '&bLlave Spawners'
+    icon: SPAWNER
+    price: 150
+    actions: ['key:Spawners:1']
